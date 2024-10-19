@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# Portfolio - Keshav Agrawal
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my portfolio repository! This project showcases my skills, services, and work examples as a full-stack developer specializing in web development, cloud infrastructure, and responsive UI/UX design.
 
-## Available Scripts
+## 📂 Project Overview
 
-In the project directory, you can run:
+This portfolio highlights my expertise in:
 
-### `npm start`
+- **Full-stack development**: Building scalable web applications using modern technologies.
+- **Cloud infrastructure**: AWS and Google Cloud solutions for deployment and scalability.
+- **UI/UX Design**: Creating clean, responsive, and intuitive user interfaces using Material UI.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The portfolio is designed to give potential clients and employers an overview of my skillset and the types of projects I excel in.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🔧 Technologies Used
 
-### `npm test`
+This project uses the following technologies:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Frontend:
 
-### `npm run build`
+- **React**: A JavaScript library for building user interfaces.
+- **HTML5 & CSS3**: For structure and styling of web pages.
+- **JavaScript**: Core functionality for frontend interactions.
+- **Material UI**: A popular React UI framework for creating modern, responsive designs.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Backend:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Node.js**: JavaScript runtime for backend services.
+- **Express.js**: A web framework for Node.js.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Database:
 
-### `npm run eject`
+- **PostgreSQL**: A powerful, open-source relational database.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Cloud & Deployment:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **AWS**: Amazon Web Services for cloud infrastructure and deployment.
+- **Google Cloud**: Cloud services for scalable deployment and infrastructure.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Version Control:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Git**: For version control.
+- **GitHub**: Repository hosting and collaboration.
 
-## Learn More
+## 🛠️ Features
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This portfolio includes the following features:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Projects Section**: Displays selected work with descriptions and links to live demos or repositories.
+- **Skills Section**: Highlights technologies and tools I specialize in.
+- **Contact Form**: Allows visitors to send direct inquiries via email.
+- **Responsive Design**: Optimized for viewing on desktops, tablets, and mobile devices.
