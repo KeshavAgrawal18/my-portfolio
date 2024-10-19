@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import { FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
@@ -52,7 +52,7 @@ const Footer = () => {
             whileHover={{ scale: 1.2 }}
             title="Twitter"
           >
-            <FaTwitter size="28" />
+            <FaEnvelope size="28" />
           </SocialLink>
         </SocialIcons>
 

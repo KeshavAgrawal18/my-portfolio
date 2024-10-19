@@ -1,7 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import { motion } from "framer-motion";
-import { FaCode, FaCloud, FaMobileAlt, FaServer } from "react-icons/fa";
+
+import Technologies from "../components/Technologies";
 import FloatingSphere from "../components/FloatingSphere";
 import Services from "../components/Services";
 import Testimonials from "../components/Testimonial";
@@ -44,22 +45,7 @@ const About = () => {
           </p>
 
           {/* Technologies Section */}
-          <TechnologiesList>
-            <li>
-              <FaCode /> <span>Frontend:</span> React, Three.js, Styled
-              Components, Framer Motion
-            </li>
-            <li>
-              <FaServer /> <span>Backend:</span> Node.js, Express, MongoDB, SQL
-            </li>
-            <li>
-              <FaCloud /> <span>Cloud:</span> AWS, Docker, Serverless
-              Architecture
-            </li>
-            <li>
-              <FaMobileAlt /> <span>Mobile:</span> React Native, PWA
-            </li>
-          </TechnologiesList>
+          <Technologies />
 
           {/* Services Section */}
           <Services />
@@ -119,28 +105,6 @@ export const SectionTitle = styled.h2`
 const Highlight = styled.span`
   color: #ffc107;
   font-weight: bold;
-`;
-
-const TechnologiesList = styled.ul`
-  list-style-type: none;
-  padding-left: 0;
-  margin: 20px 0;
-
-  li {
-    display: flex;
-    align-items: center;
-    font-size: 1.1rem;
-    margin-bottom: 10px;
-
-    span {
-      margin-left: 10px;
-      font-weight: bold;
-    }
-
-    svg {
-      color: #007bff;
-    }
-  }
 `;
 
 export default About;

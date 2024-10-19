@@ -9,6 +9,7 @@ const ProjectSection = () => {
       <Typography variant="h3" gutterBottom className="project-title">
         My Projects
       </Typography>
+
       <Grid container spacing={4} justifyContent="center">
         {projects.map((project, index) => (
           <Grid item key={index} xs={12} sm={6} md={4}>
