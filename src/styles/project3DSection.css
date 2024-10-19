@@ -1,0 +1,62 @@
+.project-section {
+  padding: 50px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.project-3d-card {
+  perspective: 1000px;
+  transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+}
+
+.project-card {
+  position: relative; /* Ensure relative positioning for overlay */
+  transform-style: preserve-3d;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.image-container {
+  position: relative;
+}
+
+.project-image {
+  height: 200px;
+  width: 100%; /* Ensure image fits container */
+  object-fit: cover;
+}
+
+.project-title-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.3s ease; /* Smooth fade-in */
+  z-index: 1; /* Ensure the overlay is above the image */
+}
+
+.overlay-title {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.project-card:hover .project-title-overlay {
+  opacity: 0.1; /* Show overlay on hover */
+}
+
+.project-card:hover {
+  transform: scale(1.02); /* Subtle scale-up effect */
+}
+
+.project-card:hover .project-image {
+  filter: brightness(0.9); /* Darken image when hovered */
+}
