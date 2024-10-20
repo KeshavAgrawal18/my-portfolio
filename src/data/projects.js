@@ -31,14 +31,14 @@ const projects = [
     image: "assets/img/fast-pizza.png",
     tech: "React, Firebase, Tailwind CSS",
   },
-  {
-    name: "BizBoost – Freelance Platform",
-    description:
-      "A marketplace for freelancers and businesses with project management and payment integration.",
-    link: "https://bizboost-freelance.vercel.app",
-    image: "assets/img/bizboost.png",
-    tech: "React, Next.js, Stripe API, MongoDB",
-  },
+  // {
+  //   name: "BizBoost – Freelance Platform",
+  //   description:
+  //     "A marketplace for freelancers and businesses with project management and payment integration.",
+  //   link: "https://bizboost-freelance.vercel.app",
+  //   image: "assets/img/bizboost.png",
+  //   tech: "React, Next.js, Stripe API, MongoDB",
+  // },
   {
     name: "My Portfolio",
     description:

@@ -1,0 +1,9 @@
+{
+    "name": "Keshav Agrawal Portfolio",
+    "short_name": "Portfolio",
+    "description": "Keshav Agrawal's portfolio showcasing projects, skills, and experience as a full-stack web developer.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#000000"
+}

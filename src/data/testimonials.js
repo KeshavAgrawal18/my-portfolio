@@ -8,7 +8,7 @@ export const testimonialsData = [
   },
   {
     quote: "Great problem-solving skills and attention to detail.",
-    author: "Radhika Mehta",
+    author: "Neha Sharma",
   },
   {
     quote: "Transformed our ideas into a brilliant product!",
