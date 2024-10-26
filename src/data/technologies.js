@@ -16,5 +16,5 @@ export const technologies = [
     label: "Cloud",
     details: "AWS, Docker, Serverless Architecture",
   },
-  { icon: <FaMobileAlt />, label: "Mobile", details: "React Native, PWA" },
+  // { icon: <FaMobileAlt />, label: "Mobile", details: "React Native, PWA" },
 ];
