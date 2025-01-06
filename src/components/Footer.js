@@ -46,7 +46,7 @@ const Footer = () => {
             <FaGithub size="28" />
           </SocialLink>
           <SocialLink
-            href="https://twitter.com/keshavagrawal18/"
+            href="mailto:keshavagrawal178@gmail.com"
             target="_blank"
             as={motion.a}
             whileHover={{ scale: 1.2 }}
